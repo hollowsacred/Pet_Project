@@ -1,0 +1,26 @@
+.services {
+  padding-top: 150px;
+  color: $secondaryColor;
+  padding-bottom: 147px;
+  margin-bottom: -180px;
+}
+
+// .sevices-info {
+// }
+.services__title {
+  max-width: 607px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 60px;
+}
+.services__row {
+    display: flex;
+    // flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 30px;
+    // flex-wrap: wrap;
+}
+.services__card {
+    // padding: 27px 29px 36px;
+}

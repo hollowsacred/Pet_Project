@@ -1,0 +1,56 @@
+.contact-us {
+  & > * + * {
+    margin-top: 24px;
+  }
+  &__title {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 38px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  &__text {
+      width: 270px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+  }
+  &__email {
+    display: block;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 38px;
+    color: #FFFFFF;
+  }
+}
+
+.contact-us__socials {
+    display: flex;
+    gap:14px;
+}
+.contact-us__link {
+}
+.social-link {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    background-color: #444A34;
+    background-repeat: no-repeat;
+}
+.social-link-fb {
+        background-image: url("/img/stickerNew.svg");
+        background-position: 10px;
+}
+.social-link-tw {
+    background-image: url("/img/stickerNew.svg");
+    background-position: -33px;
+}
+.social-link-g {
+    background-image: url("/img/stickerNew.svg");
+    background-position: -80px;
+    background-color: #FFD723;
+}
+.social-link-in {
+    background-image: url("/img/stickerNew.svg");
+    background-position: -128px;
+}
